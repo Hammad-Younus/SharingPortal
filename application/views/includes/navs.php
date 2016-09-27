@@ -210,8 +210,8 @@
                     </ul>
                 </nav>
                                 <!-- Additional header buttons / Auth and direct link to booking-->
-                <div class="control-panel">
-<!--                     <div class="auth auth--home">
+<!--                 <div class="control-panel">
+                    <div class="auth auth--home">
                       <div class="auth__show">
                         <span class="auth__image">
                           <img alt="" src="http://placehold.it/31x31">
@@ -228,5 +228,5 @@
                         </ul>
 
                     </div>
- -->                    <a href="#" class="btn btn-md btn--warning btn--book btn-control--home login-window">Recharge</a>
-                </div>
+                    <a href="#" class="btn btn-md btn--warning btn--book btn-control--home login-window">Recharge</a>
+                </div> -->
