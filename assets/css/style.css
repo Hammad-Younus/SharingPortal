@@ -2680,7 +2680,8 @@ input[type="button"].btn-block {
   margin-bottom: 13px;
 }
 .search-wrapper {
-  background-color: #dbdee1;
+  margin-top: 125px;
+  /*background-color: #dbdee1;*/
   height: 86px;
 }
 .list-input {
@@ -2794,7 +2795,7 @@ input[type="button"].btn-block {
   min-height: 55px;
 }
 ul#navigation {
-  margin-right: 210px;
+  margin-right: 3%;
 }
 ul#navigation a {
   font: 13px 'Roboto', sans-serif;

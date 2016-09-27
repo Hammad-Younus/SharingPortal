@@ -3,7 +3,7 @@
 <head>
 	<!-- Basic Page Needs -->
         <meta charset="utf-8">
-        <title>Demo</title>
+        <title>Games</title>
         <meta name="description" content="A Template by Gozha.net">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <meta name="author" content="Gozha.net">
@@ -16,23 +16,19 @@
         <!-- Font awesome - icon font -->
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <!-- Roboto -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
-        <!-- Open Sans -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     
-    <!-- Stylesheets -->
+    <!-- Stylesheets --> 
 
         <!-- Mobile menu -->
         <link href="<?php echo base_url();?>assets/css/gozha-nav.css" rel="stylesheet" />
         <!-- Select -->
         <link href="<?php echo base_url();?>assets/css/external/jquery.selectbox.css" rel="stylesheet" />
-
-        <!-- REVOLUTION BANNER CSS SETTINGS -->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/rs-plugin/css/settings.css" media="screen" />
+        <!-- Magnific-popup -->
+        <link href="<?php echo base_url();?>assets/css/external/magnific-popup.css" rel="stylesheet" />
     
         <!-- Custom -->
-        <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" />
-
+        <link href="<?php echo base_url();?>assets/css/style.css?v=1" rel="stylesheet" />
 
         <!-- Modernizr --> 
         <script src="<?php echo base_url();?>assets/js/external/modernizr.custom.js"></script>
@@ -45,70 +41,66 @@
 </head>
 
 <body>
+
     <div class="wrapper">
+
         <!-- Header section -->
-        <?php $this->load->view('includes/header');?>
-        <!-- Slider -->
-          <div class="col-sm-12">
-            <div class="row">
-              <div class="col-sm-8 col-md-9">
-                    <aside style="margin-left: -21px;" class="col-sm-4">
-                        <div  style="margin-top: -17px;" class="sitebar first-banner--left">
-                            <div class="banner-wrap first-banner--left">
-                                <img  alt='banner' src="http://placehold.it/2000x3100">
-                            </div>    
-                        </div>
-                    </aside>
-                  <div style="margin-left: 33%;" class="bannercontainer">
-                    <div class="banner"> 
-                        <ul>
-
-                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide='Rush.'>
-                                <img alt='' src="<?php echo base_url();?>assets/images/banners/banner.jpg">
-
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="7" class="slide fading-slide" data-slide='Travel worldwide.
-Create trip film.'>
-                                <img alt='' src="http://placehold.it/1920x616">
-                                 <div class="caption slide__video" data-x="0" data-y="0" data-autoplay='true'>
-                                   <video class="media-element"  autoplay="autoplay" preload='none' loop="loop" muted="" src="video/53170154.mp4" >
-                                        <source type="video/webm" src="video/53170154.webm">
-                                        <source type="video/mp4" src="video/53170154.mp4">
-                                        <source type="video/ogg" src="video/53170154.ogv">
-                                    </video>
-                                </div>
-
-                                 
-                            </li>
-
-                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide='Stop wishing. 
-Start doing.'>
-                                <img alt='' src="http://placehold.it/1920x616">
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-                    </div>
-
-                </div>
-            </div>
+    <?php $this->load->view('includes/header'); ?>
         
+        <!-- Search bar -->
+        <div class="search-wrapper">
+            <div class="container container--add">
+                <form id='search-form' method='get' class="search">
+                    <input type="text" class="search__field" placeholder="Search Games">
+                    <select name="sorting_item" id="search-sort" class="search__sort" tabindex="0">
+                        <option value="">All Categories</option>                     
+                        <option value="351">Action</option>                     
+                        <option value="352">Adventure</option>                      
+                        <option value="354">Billiards</option>                      
+                        <option value="214">Counter Strike</option>                     
+                        <option value="355">Fighting</option>                       
+                        <option value="356">Flight</option>                     
+                        <option value="213">Game Tools</option>                     
+                        <option value="358">Horror</option>                     
+                        <option value="357">Kids</option>                       
+                        <option value="359">Racing</option>                     
+                        <option value="360">Role Playing</option>                       
+                        <option value="372">Shooter</option>                        
+                        <option value="409">Simulation</option>                     
+                        <option value="376">Sports</option>                     
+                        <option value="389">Strategy</option>
+                    </select>
+                    <button type='submit' class="btn btn-md btn--danger search__button">Search Games</button>
+                </form>
+            </div>
+        </div>
         
         <!-- Main content -->
-        <section style="margin-top: 50%;" class="container">
+        <section class="container">
+        <div style="margin-left: 21px;" class="columns large-12">
+            <p class="breadcrumbs">
+                <span>
+                    <i class="fa fa-home"></i>
+                </span>
+                <a href="#">Home</a>
+                
+                <span>
+                    <i class="fa fa-angle-right"></i>
+                </span>
             
-              <div class="movie-best">
-                 <div style="width: 99%;" class="col-sm-10 movie-best__rating">Recently Updated</div>
-            </div>
-            <div style="margin-left: -10px; " class="col-sm-12">
+                <a href="#">Games</a>
+            </p><!-- /.breadcrumbs -->
+        </div><!-- /.columns large-12 -->
+
+            <div class="col-sm-12">
+                
+                <div class="row">
+            <div style="margin-left: -10px; margin-top: -12.5%;" class="col-sm-12">
             
             <div class="row">
             <div class="col-md-9">  
                 <div>
-                <a style="float: right; margin: 13px 26px;" href="movie-page-left.html">View More</a>
-                <h3 id='target' class="page-heading heading--outcontainer">Movies</h3>
+                <h3 id='target' class="page-heading heading--outcontainer">Games</h3>
                 </div>
                 <div style="margin-top: -18px;">
               <div class="col-sm-3">
@@ -248,154 +240,23 @@ Start doing.'>
                             </div>
                     </div>
                 </div>
+
+
+
                 </div>
+
             </div>
-            <div style="margin-left: -10px;" class="col-sm-12">
-                            <div class="row">
-            <div class="col-md-9">  
-                <div>
-                <a style="float: right; margin: 13px 26px;" href="movie-page-left.html">View More</a>    
-                <h3 id='target' class="page-heading heading--outcontainer">Games</h3>
+                            <div class="col-sm-9">
+                    <div class="pagination paginatioon--full">
+                    <a href='#' class="pagination__prev">prev</a>
+                    <a href='#' class="pagination__next">next</a>
                 </div>
-                <div style="margin-top: -18px;">
-              <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
+                </div>
+    
+
+
                 </div>
 
-                <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-
-                <div class="col-sm-3">
-                       <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-
-                              <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-            </div>
-                </div>
-                <div class="col-sm-3">
-                    <h3 style="margin-right: 0px;" id='target' class="page-heading heading--outcontainer">Advertisment</h3>
-                    <div class="sitebar first-banner--left">
-                            <div class="banner-wrap first-banner--left">
-                                <img alt='banner' src="http://placehold.it/500x500">
-                            </div>
-                    </div>
-                </div>
-              <div class="col-md-9">  
-              <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-
-                <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-
-                <div class="col-sm-3">
-                       <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-
-                              <div class="col-sm-3">
-                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
-                            </a>
-                            <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
-                                <span class="gallery-item__icon">5.0</span>
-                                <p class="gallery-item__name">Camden Town Odeon</p>
-                                <p class="gallery-item__name">Adventure | Drama | Fantasy </p>
-                                <p class="gallery-item__name">38 views</p>
-                                <p class="gallery-item__name">42 Downloads</p>
-                            </a>
-                        </div>
-                </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="sitebar first-banner--left">
-                            <div class="banner-wrap first-banner--left">
-                                <img alt='banner' src="http://placehold.it/500x500">
-                            </div>
-                    </div>
-                </div>
-                </div>
             </div>
 
         </section>
@@ -443,40 +304,34 @@ Start doing.'>
 
 	<!-- JavaScript-->
         <!-- jQuery 1.9.1--> 
-        <script src="<?php echo base_url();?>assets/http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>assets/js/external/jquery-1.10.1.min.js"><\/script>')</script>
         <!-- Migrate --> 
         <script src="<?php echo base_url();?>assets/js/external/jquery-migrate-1.2.1.min.js"></script>
         <!-- Bootstrap 3--> 
-        <script src="<?php echo base_url();?>assets/http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
 
-        <!-- jQuery REVOLUTION Slider -->
-        <script type="text/javascript" src="<?php echo base_url();?>assets/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-        <script type="text/javascript" src="<?php echo base_url();?>assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- Magnific-popup -->
+        <script src="<?php echo base_url();?>assets/js/external/jquery.magnific-popup.min.js"></script>
 
         <!-- Mobile menu -->
         <script src="<?php echo base_url();?>assets/js/jquery.mobile.menu.js"></script>
          <!-- Select -->
         <script src="<?php echo base_url();?>assets/js/external/jquery.selectbox-0.2.min.js"></script>
-        <!-- Stars rate -->
-        <script src="<?php echo base_url();?>assets/js/external/jquery.raty.js"></script>
-        
+
         <!-- Form element -->
         <script src="<?php echo base_url();?>assets/js/external/form-element.js"></script>
         <!-- Form validation -->
         <script src="<?php echo base_url();?>assets/js/form.js"></script>
 
-        <!-- Twitter feed -->
-        <script src="<?php echo base_url();?>assets/js/external/twitterfeed.js"></script>
-
         <!-- Custom -->
         <script src="<?php echo base_url();?>assets/js/custom.js"></script>
 		
-	      <script type="text/javascript">
-              $(document).ready(function() {
-                init_Home();
-              });
-		    </script>
+		<script type="text/javascript">
+            $(document).ready(function() {
+                init_Gallery();
+            });
+		</script>
 
 </body>
 </html>

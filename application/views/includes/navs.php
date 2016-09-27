@@ -11,7 +11,30 @@
                     <!-- Link navigation -->
                     <ul id="navigation">
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
+                            <a href="<?php echo site_url('home');?>">Home</a>
+<!--                             <ul>
+                                <li class="menu__nav-item"><a href="movie-page-left.html">Single movie (rigth sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="movie-page-right.html">Single movie (left sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="movie-page-full.html">Single movie (full widht)</a></li>
+                                <li class="menu__nav-item"><a href="movie-list-left.html">Movies list (rigth sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="movie-list-right.html">Movies list (left sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="movie-list-full.html">Movies list (full widht)</a></li>
+                                <li class="menu__nav-item"><a href="single-cinema.html">Single cinema</a></li>
+                                <li class="menu__nav-item"><a href="cinema-list.html">Cinemas list</a></li>
+                                <li class="menu__nav-item"><a href="trailer.html">Trailers</a></li>
+                                <li class="menu__nav-item"><a href="rates-left.html">Rates (rigth sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="rates-right.html">Rates (left sidebar)</a></li>
+                                <li class="menu__nav-item"><a href="rates-full.html">Rates (full widht)</a></li>
+                                <li class="menu__nav-item"><a href="offers.html">Offers</a></li>
+                                <li class="menu__nav-item"><a href="contact.html">Contact us</a></li>
+                                <li class="menu__nav-item"><a href="404.html">404 error</a></li>
+                                <li class="menu__nav-item"><a href="coming-soon.html">Coming soon</a></li>
+                                <li class="menu__nav-item"><a href="login.html">Login/Registration</a></li>
+                            </ul>
+ -->                        </li>
+                        <li>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Islamic</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="movie-page-left.html">Single movie (rigth sidebar)</a></li>
@@ -34,8 +57,8 @@
                             </ul>
  -->                        </li>
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="page-elements.html">Games</a>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
+                            <a href="<?php echo site_url('games');?>">Games</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="typography.html">Typography</a></li>
                                 <li class="menu__nav-item"><a href="page-elements.html">Shortcodes</a></li>
@@ -44,7 +67,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="page-elements.html">Movies</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="book1.html">Booking step 1</a></li>
@@ -55,7 +78,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="gallery-four.html">Videos</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="gallery-four.html">4 col gallery</a></li>
@@ -64,7 +87,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="news-left.html">News</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="news-left.html">News (rigth sidebar)</a></li>
@@ -76,51 +99,7 @@
                             </ul> -->
                         </li>
                         <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="#">Videos</a>
-<!--                                <ul class="mega-menu container">
-                                    <li class="col-md-3 mega-menu__coloum">
-                                        <h4 class="mega-menu__heading">Now in the cinema</h4>
-                                         <ul class="mega-menu__list">
-                                            <li class="mega-menu__nav-item"><a href="#">The Counselor</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Bad Grandpa</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Blue Is the Warmest Color</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Capital</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Spinning Plates</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Bastards</a></li>
-                                          </ul>
-                                      </li>
-                                        
-                                      <li class="col-md-3 mega-menu__coloum mega-menu__coloum--outheading">
-                                          <ul class="mega-menu__list">
-                                            <li class="mega-menu__nav-item"><a href="#">Gravity</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Captain Phillips</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Carrie</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Cloudy with a Chance of Meatballs 2</a></li>
-                                          </ul>
-                                      </li>
-                                      
-                                      <li class="col-md-3 mega-menu__coloum">
-                                        <h4 class="mega-menu__heading">Ending soon</h4>
-                                          <ul class="mega-menu__list">
-                                            <li class="mega-menu__nav-item"><a href="#">Escape Plan</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Rush</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Prisoners</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Enough Said</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">The Fifth Estate</a></li>
-                                            <li class="mega-menu__nav-item"><a href="#">Runner Runner</a></li>
-                                          </ul>
-                                      </li>
-                                    
-                                      <li class="col-md-3 mega-menu__coloum mega-menu__coloum--outheading">
-                                          <ul class="mega-menu__list">
-                                            <li class="mega-menu__nav-item"><a href="#">Insidious: Chapter 2</a></li>
-                                          </ul>
-                                      </li>
-                               </ul>
- -->                    </li>
-                        <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Music</a>
 <!--                                <ul class="mega-menu container">
                                     <li class="col-md-3 mega-menu__coloum">
@@ -164,7 +143,7 @@
                                </ul>
  -->                    </li>
                          <li>
-                            <span class="sub-nav-toggle plus"></span>
+                            <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Web TV</a>
 <!--                                <ul class="mega-menu container">
                                     <li class="col-md-3 mega-menu__coloum">
