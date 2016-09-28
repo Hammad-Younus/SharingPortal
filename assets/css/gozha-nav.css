@@ -69,7 +69,7 @@ ul#navigation {
 
 ul#navigation li {
 	position: relative;
-	padding: 4px;
+	padding: 1px;
 	border-bottom: 1px solid #1b253b;	
 }
 
@@ -101,6 +101,35 @@ ul#navigation li:hover ul {
 	animation: anime 500ms;
 	
 }
+
+.red:hover{
+	background-color: rgb(63, 81, 181);
+}
+.green:hover{
+	background-color: rgb(228, 114, 110);
+}
+.blue:hover{
+	background-color: rgb(115, 154, 153);
+}
+.orange:hover{
+	background-color: rgb(109, 210, 218);
+}
+.yellow:hover{
+	background-color: rgb(255, 184, 156);
+}
+.indigo:hover{
+	background-color: rgb(246, 146, 31);
+}
+.purple:hover{
+	background-color: rgb(123, 155, 187);
+}
+.gray:hover{
+	background-color: rgb(180, 130, 236);
+}
+h3.adv{
+	background-color: rgb(166, 36, 98);
+}
+
 
 /*------------------------------------------End Main settings---------------------------------------*/
 /*------------------------------------------Bsgin Hover settings---------------------------------------*/
@@ -289,4 +318,24 @@ ul {
 	ul#navigation li{
 		border: none;
 	}
+
+	.gallery-item{
+		float: right;
+		width: 40%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.bannercontainer{
+		right: 33%;
+		margin-top: 23%;
+	}
+	a.gallery-item__descript{
+		
+	}
+
+	h3.adv{
+		display: none;
+	}
+
 }

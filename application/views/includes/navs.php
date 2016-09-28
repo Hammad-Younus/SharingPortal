@@ -10,7 +10,7 @@
                     
                     <!-- Link navigation -->
                     <ul id="navigation">
-                        <li>
+                        <li class="red">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="<?php echo site_url('home');?>">Home</a>
 <!--                             <ul>
@@ -33,7 +33,7 @@
                                 <li class="menu__nav-item"><a href="login.html">Login/Registration</a></li>
                             </ul>
  -->                        </li>
-                        <li>
+                        <li class="green">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Islamic</a>
 <!--                             <ul>
@@ -56,7 +56,7 @@
                                 <li class="menu__nav-item"><a href="login.html">Login/Registration</a></li>
                             </ul>
  -->                        </li>
-                        <li>
+                        <li class="blue">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="<?php echo site_url('games');?>">Games</a>
 <!--                             <ul>
@@ -66,9 +66,9 @@
                                 <li class="menu__nav-item"><a href="icon-font.html">Icons</a></li>
                             </ul> -->
                         </li>
-                        <li>
+                        <li class="orange">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
-                            <a href="page-elements.html">Movies</a>
+                            <a href="<?php echo site_url('movies');?>">Movies</a>
 <!--                             <ul>
                                 <li class="menu__nav-item"><a href="book1.html">Booking step 1</a></li>
                                 <li class="menu__nav-item"><a href="book2.html">Booking step 2</a></li>
@@ -77,7 +77,7 @@
                                 <li class="menu__nav-item"><a href="book-final.html">Final ticket view</a></li>
                             </ul> -->
                         </li>
-                        <li>
+                        <li class="yellow">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="gallery-four.html">Videos</a>
 <!--                             <ul>
@@ -86,7 +86,7 @@
                                 <li class="menu__nav-item"><a href="gallery-two.html">2 col gallery</a></li>
                             </ul> -->
                         </li>
-                        <li>
+                        <li class="gray">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="news-left.html">News</a>
 <!--                             <ul>
@@ -98,7 +98,7 @@
                                 <li class="menu__nav-item"><a href="single-page-full.html">Single post (full widht)</a></li>
                             </ul> -->
                         </li>
-                        <li>
+                        <li class="indigo">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Music</a>
 <!--                                <ul class="mega-menu container">
@@ -142,7 +142,7 @@
                                       </li>
                                </ul>
  -->                    </li>
-                         <li>
+                         <li class="purple">
                             <!-- <span class="sub-nav-toggle plus"></span> -->
                             <a href="#">Web TV</a>
 <!--                                <ul class="mega-menu container">

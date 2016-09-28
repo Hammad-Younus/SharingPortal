@@ -2596,7 +2596,7 @@ input[type="button"].btn-block {
   z-index: 120;
 }
 .header-wrapper--home {
-  background: #2e292e;
+  background: rgba(255,255,255,.5);
   position: fixed;
   height: 55px;
   width: 100%;
@@ -2798,8 +2798,8 @@ ul#navigation {
   margin-right: 3%;
 }
 ul#navigation a {
-  font: 13px 'Roboto', sans-serif;
-  color: #b4b1b2;
+  font: 15px 'Roboto', sans-serif;
+  color: #4c4145;;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -4457,9 +4457,7 @@ ul#navigation li.mega-menu__coloum {
 ul#navigation li.mega-menu__coloum--outheading {
   padding-top: 44px;
 }
-ul#navigation > li {
-  padding-bottom: 21px;
-}
+
 ul#navigation > li > ul.mega-menu {
   width: 1140px;
   left: -792px;
@@ -5872,24 +5870,24 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   transition: 0.35s;
 }
 .gallery-item .gallery-item__image:hover:before {
-  width: 80%;
-  height: 80%;
-  left: 10%;
+  width: 90%;
+  height: 90%;
+  left: 5%;
   right: 10%;
-  top: 10%;
-  bottom: 10%;
+  top: 5%;
+  bottom: 5%;
   opacity: 1;
 }
 .gallery-item .gallery-item__image:after {
-  content: "\f0c1";
+  content: "Camden Town Odeon";
   font: 20px "FontAwesome";
   color: #ffffff;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -9px;
-  margin-left: -9px;
+  top: 40%;
+  left: 20%;
+  margin-top: -12px;
+  margin-left: -12px;
   -webkit-transition: 0.35s;
   transition: 0.35s;
 }
@@ -6841,47 +6839,15 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.tp-leftarrow.default .slider__info {
-  margin: 18px 10px 18px 55px;
-  opacity: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  width: 130px;
-  display: none;
-  font: 13px 'aleoitalic', sans-serif;
-  color: #ffffff;
-  line-height: 21px;
-  text-align: right;
-  padding-right: 15px;
-  padding-left: 10px;
-}
+
 .tp-leftarrow.default .slider__info:before {
-  content: 'back';
   font: 13px 'aleoitalic', sans-serif;
   color: #ffd564;
   position: absolute;
   bottom: 22px;
   right: 19px;
 }
-.tp-leftarrow.default .slider__info:after {
-  content: '';
-  background-image: url("../images/components/wave.svg");
-  background-repeat: no-repeat;
-  background-size: 48px 4px;
-  width: 48px;
-  height: 4px;
-  position: absolute;
-  bottom: 43px;
-  right: 19px;
-}
-.tp-leftarrow.default:hover {
-  color: #ffffff;
-  width: 195px;
-  height: 125px;
-  margin-top: -41px !important;
-  border: 3px solid #ffffff;
-  background-color: rgba(0, 0, 0, 0.2);
-}
+
 .tp-leftarrow.default:hover .slider__info {
   opacity: 1;
   display: inline-block;
@@ -6931,32 +6897,14 @@ ul#navigation li.mega-menu__nav-item:hover:before {
   padding-left: 15px;
 }
 .tp-rightarrow.default .slider__info:before {
-  content: 'next';
+  content: '';
   font: 13px 'aleoitalic', sans-serif;
   color: #ffd564;
   position: absolute;
   top: 67px;
   left: 19px;
 }
-.tp-rightarrow.default .slider__info:after {
-  content: '';
-  background-image: url("../images/components/wave.svg");
-  background-repeat: no-repeat;
-  background-size: 48px 4px;
-  width: 48px;
-  height: 4px;
-  position: absolute;
-  top: 53px;
-  left: 19px;
-}
-.tp-rightarrow.default:hover {
-  color: #ffffff;
-  width: 195px;
-  height: 125px;
-  margin-top: -61px !important;
-  border: 3px solid #ffffff;
-  background-color: rgba(0, 0, 0, 0.2);
-}
+
 .tp-rightarrow.default:hover .slider__info {
   opacity: 1;
   display: inline-block;

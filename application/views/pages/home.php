@@ -63,28 +63,17 @@
                     <div class="banner"> 
                         <ul>
 
-                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide='Rush.'>
+                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide=''>
                                 <img alt='' src="<?php echo base_url();?>assets/images/banners/banner.jpg">
 
                             </li>
 
-                            <li data-transition="fade" data-slotamount="7" class="slide fading-slide" data-slide='Travel worldwide.
-Create trip film.'>
-                                <img alt='' src="http://placehold.it/1920x616">
-                                 <div class="caption slide__video" data-x="0" data-y="0" data-autoplay='true'>
-                                   <video class="media-element"  autoplay="autoplay" preload='none' loop="loop" muted="" src="video/53170154.mp4" >
-                                        <source type="video/webm" src="video/53170154.webm">
-                                        <source type="video/mp4" src="video/53170154.mp4">
-                                        <source type="video/ogg" src="video/53170154.ogv">
-                                    </video>
-                                </div>
-
-                                 
+                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide=''>      
+                                <img alt='' src="<?php echo base_url();?>assets/images/banners/img1.jpg">
                             </li>
 
-                            <li data-transition="fade" data-slotamount="7" class="slide" data-slide='Stop wishing. 
-Start doing.'>
-                                <img alt='' src="http://placehold.it/1920x616">
+                             <li data-transition="fade" data-slotamount="7" class="slide" data-slide=''>
+                                <img alt='' src="<?php echo base_url();?>assets/images/banners/img2.jpg">
                             </li>
 
                         </ul>
@@ -107,8 +96,8 @@ Start doing.'>
             <div class="row">
             <div class="col-md-9">  
                 <div>
-                <a style="float: right; margin: 13px 26px;" href="movie-page-left.html">View More</a>
-                <h3 id='target' class="page-heading heading--outcontainer">Movies</h3>
+                <a style="float: right; margin: 13px 26px;" href="<?php echo site_url('movies');?>">View More</a>
+                <h3 style="background-color:rgb(93, 180, 187)"; id='target' class="page-heading heading--outcontainer">Movies</h3>
                 </div>
                 <div style="margin-top: -18px;">
               <div class="col-sm-3">
@@ -173,7 +162,7 @@ Start doing.'>
             </div>
                 </div>
                 <div class="col-sm-3">
-                    <h3 style="margin-right: 0px;" id='target' class="page-heading heading--outcontainer">Advertisment</h3>
+                    <h3 style="margin-right: 0px;" id='target' class="adv page-heading heading--outcontainer">Advertisment</h3>
                     <div class="sitebar first-banner--left">
                             <div class="banner-wrap first-banner--left">
                                 <img alt='banner' src="http://placehold.it/500x500">
@@ -254,14 +243,14 @@ Start doing.'>
                             <div class="row">
             <div class="col-md-9">  
                 <div>
-                <a style="float: right; margin: 13px 26px;" href="movie-page-left.html">View More</a>    
-                <h3 id='target' class="page-heading heading--outcontainer">Games</h3>
+                <a style="float: right; margin: 13px 26px;" href="<?php echo site_url('games');?>">View More</a>    
+                <h3 style="background-color:rgb(82, 110, 109);" id='target' class="page-heading heading--outcontainer">Games</h3>
                 </div>
                 <div style="margin-top: -18px;">
               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img1.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -276,7 +265,7 @@ Start doing.'>
                 <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img2.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -291,7 +280,7 @@ Start doing.'>
                 <div class="col-sm-3">
                        <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img3.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -306,7 +295,7 @@ Start doing.'>
                               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img4.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -320,7 +309,7 @@ Start doing.'>
             </div>
                 </div>
                 <div class="col-sm-3">
-                    <h3 style="margin-right: 0px;" id='target' class="page-heading heading--outcontainer">Advertisment</h3>
+                    <h3 style="margin-right: 0px;" id='target' class="adv page-heading heading--outcontainer">Advertisment</h3>
                     <div class="sitebar first-banner--left">
                             <div class="banner-wrap first-banner--left">
                                 <img alt='banner' src="http://placehold.it/500x500">
@@ -331,7 +320,7 @@ Start doing.'>
               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img9.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -346,7 +335,7 @@ Start doing.'>
                 <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img8.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -361,7 +350,7 @@ Start doing.'>
                 <div class="col-sm-3">
                        <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img7.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -376,7 +365,7 @@ Start doing.'>
                               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="http://placehold.it/524x524">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img6.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -478,5 +467,7 @@ Start doing.'>
               });
 		    </script>
 
+
+</script>
 </body>
 </html>

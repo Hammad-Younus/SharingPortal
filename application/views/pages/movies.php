@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<!-- Basic Page Needs -->
+    <!-- Basic Page Needs -->
         <meta charset="utf-8">
         <title>Games</title>
         <meta name="description" content="A Template by Gozha.net">
@@ -9,7 +9,7 @@
         <meta name="author" content="Gozha.net">
     
     <!-- Mobile Specific Metas-->
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="telephone=no" name="format-detection">
     
     <!-- Fonts -->
@@ -35,8 +35,8 @@
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
     <!--[if lt IE 9]> 
-    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>       
     <![endif]-->
 </head>
 
@@ -51,7 +51,7 @@
         <div class="search-wrapper">
             <div class="container container--add">
                 <form id='search-form' method='get' class="search">
-                    <input type="text" class="search__field" placeholder="Search Games">
+                    <input type="text" class="search__field" placeholder="Search Movies">
                     <select name="sorting_item" id="search-sort" class="search__sort" tabindex="0">
                         <option value="">All Categories</option>                     
                         <option value="351">Action</option>                     
@@ -70,28 +70,27 @@
                         <option value="376">Sports</option>                     
                         <option value="389">Strategy</option>
                     </select>
-                    <button type='submit' class="btn btn-md btn--danger search__button">Search Games</button>
+                    <button type='submit' class="btn btn-md btn--danger search__button">Search Movies</button>
                 </form>
             </div>
         </div>
         
         <!-- Main content -->
         <section class="container">
-        <div style="margin-left: 21px;" class="columns large-12">
+            <div style="margin-left: 21px;" class="columns large-12">
             <p class="breadcrumbs">
                 <span>
                     <i class="fa fa-home"></i>
                 </span>
-                <a href="<?php echo site_url('home');?>">Home</a>
+                <a href="#">Home</a>
                 
                 <span>
                     <i class="fa fa-angle-right"></i>
                 </span>
             
-                <a href="<?php echo site_url('games');?>">Games</a>
+                <a href="#">Movies</a>
             </p><!-- /.breadcrumbs -->
         </div><!-- /.columns large-12 -->
-
             <div class="col-sm-12">
                 
                 <div class="row">
@@ -100,13 +99,13 @@
             <div class="row">
             <div class="col-md-9">  
                 <div>
-                <h3 style="background-color:rgb(82, 110, 109);" id='target' class="page-heading heading--outcontainer">Games</h3>
+                <h3 style="background-color:rgb(93, 180, 187);" id='target' class="page-heading heading--outcontainer">Movies</h3>
                 </div>
                 <div style="margin-top: -18px;">
               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img1.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img12.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -121,7 +120,7 @@
                 <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img2.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img13.jpg">
                             </a>
                             <a href='"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -136,7 +135,7 @@
                 <div class="col-sm-3">
                        <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img3.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img14.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -151,7 +150,7 @@
                               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img4.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img15.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -176,7 +175,7 @@
               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img5.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img9.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -191,7 +190,7 @@
                 <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img6.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img10.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -205,8 +204,8 @@
 
                 <div class="col-sm-3">
                        <div class="gallery-item">
-                            <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img7.jpg">
+                            <a href='<?php echo site_url('singleMovies');?>' class="gallery-item__image gallery-item--photo">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img11.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -221,7 +220,7 @@
                               <div class="col-sm-3">
                         <div class="gallery-item">
                             <a href='http://placehold.it/2150x1200' class="gallery-item__image gallery-item--photo">
-                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img8.jpg">
+                                <img alt='' src="<?php echo base_url();?>assets/images/movie/img12.jpg">
                             </a>
                             <a href='http://placehold.it/424x424"' class="gallery-item__descript gallery-item--photo-link">
                                 <span class="gallery-item__icon">5.0</span>
@@ -302,7 +301,7 @@
             </section>
         </div>
 
-	<!-- JavaScript-->
+    <!-- JavaScript-->
         <!-- jQuery 1.9.1--> 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo base_url();?>assets/js/external/jquery-1.10.1.min.js"><\/script>')</script>
@@ -326,12 +325,8 @@
 
         <!-- Custom -->
         <script src="<?php echo base_url();?>assets/js/custom.js"></script>
-		
-		<script type="text/javascript">
-            $(document).ready(function() {
-                init_Gallery();
-            });
-		</script>
+        
+
 
 </body>
 </html>
